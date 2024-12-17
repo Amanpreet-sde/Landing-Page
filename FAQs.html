@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="FAQs.css">
+</head>
+
+<body>
+<div id="faqs" class="faqs-section">  
+    <h2 class="pb-2 border-bottom">Frequently Asked Questions</h2>  
+    
+    <div class="faq-item">  
+      <h3 class="faq-question">1. What services do you offer?</h3>  
+      <p class="faq-answer">We offer a range of moving services, including local and long-distance moves, packing and unpacking, furniture disassembly and reassembly, and specialty item handling.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">2. How do you determine the cost of a move?</h3>  
+      <p class="faq-answer">The cost of a move is determined by various factors, including the distance of the move, the number of movers required, the size of the home, and any additional services requested, such as packing materials or specialty item handling.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">3. Do you provide packing services?</h3>  
+      <p class="faq-answer">Yes, we offer packing services as part of our moving packages. Our team can provide packing materials and pack your items safely and efficiently.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">4. What is your cancellation policy?</h3>  
+      <p class="faq-answer">We understand that plans can change. If you need to cancel or reschedule your move, please contact us at least 48 hours in advance for a full refund.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">5. Are there any hidden fees?</h3>  
+      <p class="faq-answer">No, we pride ourselves on transparent pricing. All costs will be discussed upfront, and there are no hidden fees.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">6. What insurance coverage do you provide?</h3>  
+      <p class="faq-answer">We offer basic liability coverage as standard with all moves. For additional peace of mind, you can opt for full valuation coverage, which provides more comprehensive protection for your items.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">7. How far in advance should I book my move?</h3>  
+      <p class="faq-answer">We recommend booking your move at least 2-4 weeks in advance, especially during peak moving seasons, to ensure availability.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">8. Can you move specialty items?</h3>  
+      <p class="faq-answer">Yes, we have experience in handling specialty items such as pianos, artwork, and antiques. Please inform us in advance so we can prepare accordingly.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">9. Do you charge for fuel and mileage?</h3>  
+      <p class="faq-answer">Yes, fuel and mileage fees are included in our pricing. Additional charges may apply for moves beyond the specified mileage included in each package.</p>  
+    </div>  
+  
+    <div class="faq-item">  
+      <h3 class="faq-question">10. How can I contact you for more information?</h3>  
+      <p class="faq-answer">You can contact us via the contact form on our website, call us at [Your Phone Number], or email us at [Your Email Address]. We’re here to help!</p>  
+    </div>  
+  </div>
+  <script>
+  document.querySelectorAll('.faq-question').forEach(item => {  
+    item.addEventListener('click', () => {  
+      const answer = item.nextElementSibling;  
+      answer.style.display = answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';  
+    });  
+  });
+</script>
+  </body>
+  </html>
